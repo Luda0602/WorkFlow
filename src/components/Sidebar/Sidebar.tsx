@@ -1,21 +1,31 @@
+import "./Sidebar.css";
+
 function Sidebar() {
   return (
-    <aside>
-      <h2>WorkFlow</h2>
+    <aside className="sidebar">
+      <h2 className="sidebar-logo">WorkFlow</h2>
+
       <nav>
-        <ul>
+        <ul className="sidebar-list">
           <li>
-            <a href="/">Dashboard</a>
+            <a className="sidebar-link" href="/">
+              Dashboard
+            </a>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <a className="sidebar-link" href="/projects">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="/tasks">Tasks</a>
+            <a className="sidebar-link" href="/tasks">
+              Tasks
+            </a>
           </li>
         </ul>
       </nav>
     </aside>
   );
 }
+
 export default Sidebar;

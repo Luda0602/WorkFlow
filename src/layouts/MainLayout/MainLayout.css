@@ -9,10 +9,3 @@
   padding: 32px;
   background-color: #f4f6f8;
 }
-
-.sidebar {
-  box-sizing: border-box;
-  width: 250px;
-  min-height: 100vh;
-  flex-shrink: 0;
-}

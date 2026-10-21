@@ -1,10 +1,10 @@
 import MainLayout from "./layouts/MainLayout/MainLayout";
+import DashboardPage from "./pages/DashboardPage/DashboardPage";
 
 function App() {
   return (
     <MainLayout>
-      <h1>Dashboard</h1>
-      <p>Welcome to WorkFlow!</p>
+      <DashboardPage />
     </MainLayout>
   );
 }
